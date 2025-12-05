@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    background: linear-gradient(0deg, #758467 0%, #9CAF88 35%);
+}
+#ordBtn{
+    padding: 15px 30px;
+    background: #DFE6DA;
+    border: none;
+    border-radius: 30px;
+}
+#product-1{
+    width: 250px;
+    height: auto;
+    align-self: flex-end;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.description {
+    display: flex;
+    padding: 15px;
+    background: #9CAF88;
+    text-align: center;
+}
+
+.features {
+    padding: 20px 5px;
+    padding-bottom: 30px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.feature-card {
+    flex: 1 1 300;
+    max-width: 300px;
+    padding: 20px;
+    background: #DFE6DA;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+#feature-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#feature-cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #242424;
+    color: #fff;
+}
